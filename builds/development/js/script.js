@@ -42,7 +42,7 @@ $ = require('jquery');
 
 (fill = function(item) {
   return $('.tagline').append("" + item);
-})('butts');
+})('though shall not wait so long');
 
 fill;
 
