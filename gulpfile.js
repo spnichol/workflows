@@ -40,3 +40,6 @@ gulp.task('compass', function() {
 		.on('error', gutil.log)
 		.pipe(gulp.dest('builds/development/css'))
 });
+
+
+gulp.task('default', ['coffee', 'js', 'compass'])
